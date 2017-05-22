@@ -10,7 +10,7 @@
 
 
     <Switch
-        android:id="@+id/default_switch"
+        android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/switch_1"
@@ -26,6 +26,18 @@
         android:thumbTextPadding="50dp"
         android:thumb="@drawable/sw_1_thumb"
         android:track="@drawable/sw_1_track"/>
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
 
 
 </android.support.constraint.ConstraintLayout>

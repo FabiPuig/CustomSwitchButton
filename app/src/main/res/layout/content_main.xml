@@ -95,7 +95,8 @@
         android:thumbTextPadding="24dp"
         android:switchMinWidth="96dp"
         android:thumb="@drawable/sw_5_thumb"
-        android:track="@drawable/sw_5_track"/>
+        android:track="@drawable/sw_5_track"
+        android:background="@drawable/sw_5_background"/>
 
 
 </android.support.constraint.ConstraintLayout>

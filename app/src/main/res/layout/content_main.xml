@@ -58,7 +58,9 @@
         app:layout_constraintTop_toBottomOf="@+id/switch2"
         android:showText="true"
         android:textOn="ON"
-        android:textOff="OFF"/>
+        android:textOff="OFF"
+        android:thumb="@drawable/sw_3_thumb"
+        android:track="@drawable/sw_3_track"/>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -23,7 +23,7 @@
         android:showText="true"
         android:textOn="ON"
         android:textOff="OFF"
-        android:switchMinWidth="200dp"
+        android:thumbTextPadding="50dp"
         android:thumb="@drawable/sw_1_thumb"
         android:track="@drawable/sw_1_track"/>
 

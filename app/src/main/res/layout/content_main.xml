@@ -62,5 +62,21 @@
         android:thumb="@drawable/sw_3_thumb"
         android:track="@drawable/sw_3_track"/>
 
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/switch3"
+        android:showText="true"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:switchMinWidth="0dp" />
+
 
 </android.support.constraint.ConstraintLayout>

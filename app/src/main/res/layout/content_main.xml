@@ -76,7 +76,9 @@
         android:showText="true"
         android:textOn="ON"
         android:textOff="OFF"
-        android:switchMinWidth="0dp" />
+        android:switchMinWidth="0dp"
+        android:thumb="@drawable/sw_4_thumb"
+        android:track="@drawable/sw_4_track"/>
 
 
 </android.support.constraint.ConstraintLayout>
